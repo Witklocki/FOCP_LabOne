@@ -4,7 +4,7 @@
 
 int main(){
 
-    int A,B,C;
+    float A,B,C;
 
     cout << "Give number for Inequality" << endl;
     cout << " Numbers will be like" <<" Ax+B=C"<<endl;
@@ -16,7 +16,8 @@ int main(){
     cin >> C;
 
     if(A != 0){
-        cout << " x = " << (1.0*C-B*1.0)/A*1.0;
+        float X =(C-B)/A;
+        cout << " value of x = " << X;
     }
     else{
         if (B != 0){
